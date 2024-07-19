@@ -44,7 +44,8 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Service Team</members>
+        <members>Technician</members>
         <name>Profile</name>
     </types>
   <!--  <types>
