@@ -150,6 +150,7 @@
         <members>OEM_Spare_Tracker__c.Status__c</members>
         <members>OEM_Spare_Tracker__c.Supplier_Name__c</members>
         <members>OEM_Spare_Tracker__c.Total_Amount__c</members>
+        <members>WorkOrderLineItem.Spare_Asset__c</members>
         <name>CustomField</name>
     </types>
     <types>
