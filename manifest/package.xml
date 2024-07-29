@@ -157,7 +157,7 @@
     <types>
         <members>Service Team</members>
         <members>Technician</members>
-        <members>System Administrator</members>
+        <members>Admin</members>
         <name>Profile</name>
     </types>
     <types>
