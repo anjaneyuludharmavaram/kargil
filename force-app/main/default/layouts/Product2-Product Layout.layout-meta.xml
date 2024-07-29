@@ -136,12 +136,7 @@
         <fields>CreatedBy</fields>
         <relatedList>ReturnOrderLineItems</relatedList>
     </relatedLists>
-    <relatedLists>
-        <fields>Product2</fields>
-        <fields>Location</fields>
-        <fields>QuantityOnHand</fields>
-        <relatedList>ProductItems</relatedList>
-    </relatedLists>
+
     <relatedLists>
         <relatedList>RelatedStandardPriceList</relatedList>
     </relatedLists>
