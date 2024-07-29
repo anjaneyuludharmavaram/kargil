@@ -1,0 +1,11 @@
+Dear {!Case.SuppliedName}
+
+Your Case Status has been changed.Please find your case details below.
+
+Case Number : {!Case.CaseNumber}
+Case Subject : {!Case.Subject}
+Case Status : {!Case.Status}
+Description : {!Case.Description}
+
+Thanks
+Kargil Team

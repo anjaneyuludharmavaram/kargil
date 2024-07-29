@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Delivery_Due_Date_email_alert</fullName>
+        <ccEmails>service@kargilequipments.com</ccEmails>
+        <description>Delivery_Due_Date email alert</description>
+        <protected>false</protected>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>unfiled$public/Delivery_Due_Date</template>
+    </alerts>
+    <alerts>
+        <fullName>Exptected_Dispatch_Date_email_alert</fullName>
+        <ccEmails>service@kargilequipments.com</ccEmails>
+        <description>Exptected Dispatch Date email alert</description>
+        <protected>false</protected>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>unfiled$public/Exptected_Dispatch_Date_Approaching</template>
+    </alerts>
+</Workflow>

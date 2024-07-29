@@ -1,0 +1,9 @@
+Hi Team,
+
+The Product item quantity is {!ProductItem.QuantityOnHand}.
+Please take the required action.
+Product Item Id : {!ProductItem.Id}
+Product Name : ProductName 
+
+Thanks
+Team Kargil

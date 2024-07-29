@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>AMC_Start_Date__c</columns>
+    <columns>AMC_End_Date__c</columns>
+    <columns>Warranty__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Client</value>
+    </filters>
+    <label>Client Accounts</label>
+</ListView>

@@ -13,6 +13,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Asset_Number__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Product2Id</field>
             </layoutItems>
             <layoutItems>
@@ -42,10 +46,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Warranty_End_Date__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Asset_Number__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

@@ -1,0 +1,8 @@
+Dear {!ServiceAppointment.Technician_Name__c}
+
+The Service appointment has been Created for work order and assigned to you.
+Subject - {!ServiceAppointment.Subject}
+Description - {!ServiceAppointment.Description}.
+
+Thanks
+Team Kargil

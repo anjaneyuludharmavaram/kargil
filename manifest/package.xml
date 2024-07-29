@@ -1,52 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>Preventive_Maintanenace__c</members>
+        <members>Client_PO_Tracker__c</members>
+        <members>AMC_Invoice_Tracker__c</members>
+        <members>OEM_Spare_Tracker__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Case_Flow_On_Update</members>
+        <members>Work_Order_Flow_On_Creation</members>
+        <members>Service_Appointment_flow_on_Creation</members>
+        <members>Service_Appointment_flow_on_Update</members>
+        <members>Scheduled_flow_for_Preventive_Maintenance</members>
+        <members>Client_Po_Tracker_Delivery_Due_Date_email_Alert</members>
+        <members>Product_Item_Flow_on_Insert</members>
+        <members>AMC_Expected_Payment_Date_Notification_flow</members>
+        <members>Exptected_Dispatch_Date_approaching_notification</members>
         <name>Flow</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Case.Notify_Customer_on_Case_Status_Change</members>
+        <members>ServiceAppointment.New_Service_Appointment_created_email_alert</members>
+        <members>ServiceAppointment.Email_alert_on_Editing_the_Service_Supporter_Email</members>
+        <members>ServiceAppointment.Email_alert_on_Editing_Technician_Email</members>
+        <members>ServiceAppointment.Service_Appointment_Status_Changed_Alert</members>
+        <members>Preventive_Maintanenace__c.Scheduled_email_alert</members>
+        <members>Client_PO_Tracker__c.Delivery_Due_Date_email_alert</members>
+        <members>Client_PO_Tracker__c.Exptected_Dispatch_Date_email_alert</members>
+        <members>ProductItem.Product_item_quantity_Email_Alert</members>
+        <members>AMC_Invoice_Tracker__c.Expected_Payment_Date_Email_Alert</members>
         <name>WorkflowAlert</name>
     </types>
      <types>
-        <members>*</members>
+        <members>unfiled$public/Auto_Response_to_Case</members>
+        <members>unfiled$public/Case_Status_Changed</members>
+        <members>unfiled$public/Creation_of_Service_Appointment</members>
+        <members>unfiled$public/Editing_the_Service_Supporter_Email</members>
+        <members>unfiled$public/Editing_Technician_Email</members>
+        <members>unfiled$public/Service_appointment_status_changed</members>
+        <members>unfiled$public/Preventive_Maintenance_Reminder_Template</members>
+        <members>unfiled$public/Delivery_Due_Date</members>
+        <members>unfiled$public/Exptected_Dispatch_Date_Approaching</members>
+        <members>unfiled$public/quantaity_is_equal_or_less_than_5</members>
+        <members>unfiled$public/AMC_invoice_tracker_Expected_Payment_date_Notifiction</members>
         <name>EmailTemplate</name>
     </types>
      <types>
-        <members>*</members>
+        <members>WorkOrder.New_Service_Appointment</members>
+        <members>Case.New_Work_Order</members>
+        <members>WorkOrder.New_Product_Consumed</members>
+        <members>WorkOrder.New_Time_Sheet_Entry</members>
         <name>QuickAction</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Account-Account Layout</members>
+        <members>Account-OEM/Service Supporter Account Page Layout</members>
+        <members>Case-Case Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>Preventive_Maintanenace__c-Preventive Maintanenace Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>WorkOrder-Work Order Layout</members>
+        <members>WorkOrderLineItem-Work Order Line Item Layout</members>
         <name>Layout</name>
     </types>
 
     <types>
-    <members>WorkOrderLineItem.Spare_Asset__c</members>
-
-    <members>Asset.AMC_Amount_for_One_Month__c</members>
-    <members>Asset.AMC_Amount_for_One_Year__c</members>
-    <members>Asset.AMC_Amount_Invoiced__c</members>
-    <members>Asset.AMC_End_Date__c</members>
-    <members>Asset.AMC_Payment_Pending__c</members>
-    <members>Asset.AMC_Payment_Received__c</members>
-    <members>Asset.AMC_Start_Date__c</members>
-    <members>Asset.AMC_Type__c</members>
-    <members>Asset.Warranty_End_Date__c</members>
-    <members>Asset.Warranty_Start_date__c</members>
+        <members>Account.AMC_Amount_for_One_Month__c</members>
+        <members>Account.AMC_Amount_for_One_Year__c</members>
+        <members>Account.AMC_Amount_Invoiced__c</members>
+        <members>Account.AMC_End_Date__c</members>
+        <members>Account.AMC_Payment_Pending__c</members>
+        <members>Account.AMC_Payment_Received__c</members>
+        <members>Account.AMC_Start_Date__c</members>
+        <members>Account.AMC_Type__c</members>
+        <members>Account.Invoice_Frequecy__c</members>
+        <members>Account.Warranty__c</members>
+        <members>Account.Chargeable_Visit__c</members>
+        <members>Case.Status</members>
+        <members>WorkOrder.Service_Supporter__c</members>
+        <members>WorkOrder.Email__c</members>
+        <members>WorkOrder.Report_Number__c</members>
+        <members>WorkOrder.Root_Cause__c</members>
+        <members>WorkOrder.Fix_Details__c</members>
+        <members>WorkOrder.Prevent_actions__c</members>
+        <members>WorkOrder.Corrective_actions__c</members>
+        <members>Asset.AMC_Amount_for_One_Month__c</members>
+        <members>Asset.AMC_Amount_for_One_Year__c</members>
+        <members>Asset.AMC_Amount_Invoiced__c</members>
+        <members>Asset.AMC_End_Date__c</members>
+        <members>Asset.AMC_Payment_Pending__c</members>
+        <members>Asset.AMC_Payment_Received__c</members>
+        <members>Asset.AMC_Start_Date__c</members>
+        <members>Asset.AMC_Type__c</members>
+        <members>Asset.Warranty_End_Date__c</members>
+        <members>Asset.Warranty_Start_date__c</members>
         <members>Asset.Location__c</members>
         <members>Asset.Floor__c</members>
         <members>Asset.Asset_Number__c</members>
+        <members>ServiceAppointment.Customer_Email__c</members>
+        <members>ServiceAppointment.Service_Supporter__c</members>
+        <members>ServiceAppointment.OEM_Email__c</members>
+        <members>ServiceAppointment.OEM_Phone__c</members>
+        <members>ServiceAppointment.Technician_Name__c</members>
+        <members>ServiceAppointment.Technician_Email__c</members>
+        <members>ServiceAppointment.Technician_Phone__c</members>
+        <members>Preventive_Maintanenace__c.Client__c</members>
+        <members>Preventive_Maintanenace__c.Schedule_Date__c</members>
+        <members>Preventive_Maintanenace__c.Completed_Date__c</members>
+        <members>Preventive_Maintanenace__c.Start_Date__c</members>
+        <members>Preventive_Maintanenace__c.Status__c</members>
+        <members>Preventive_Maintanenace__c.User__c</members>
+        <members>AMC_Invoice_Tracker__c.Payment_Due_Date__c</members>
+        <members>AMC_Invoice_Tracker__c.Amount__c</members>
+        <members>AMC_Invoice_Tracker__c.Client_Name__c</members>
+        <members>AMC_Invoice_Tracker__c.Invoice_Date__c</members>
+        <members>AMC_Invoice_Tracker__c.Invoice_no__c</members>
+        <members>AMC_Invoice_Tracker__c.Invoice_Type__c</members>
+        <members>AMC_Invoice_Tracker__c.Expected_Payment_Date__c</members>
+        <members>AMC_Invoice_Tracker__c.Invoice_Submitted_Time__c</members>
+        <members>AMC_Invoice_Tracker__c.Payment_Status__c</members>
+        <members>Client_PO_Tracker__c.Client_Name__c</members>
+        <members>Client_PO_Tracker__c.Invoice_Dated__c</members>
+        <members>Client_PO_Tracker__c.Invoice_Number__c</members>
+        <members>Client_PO_Tracker__c.Material_Description__c</members>
+        <members>Client_PO_Tracker__c.Material_Status__c</members>
+        <members>Client_PO_Tracker__c.Payment_status__c</members>
+        <members>Client_PO_Tracker__c.PO_Issued_Date__c</members>
+        <members>Client_PO_Tracker__c.PO_Received_Date__c</members>
+        <members>Client_PO_Tracker__c.Price__c</members>
+        <members>Client_PO_Tracker__c.Quantity__c</members>
+        <members>Client_PO_Tracker__c.Remarks__c</members>
+        <members>Client_PO_Tracker__c.Total_Amount__c</members>
+        <members>Client_PO_Tracker__c.PO_Number__c</members>
+        <members>Client_PO_Tracker__c.Delivery_Due_Date__c</members>
+        <members>Client_PO_Tracker__c.Exptected_Dispatch_Date__c</members>
+        <members>Product2.Product__c</members>
+        <members>Product2.OEM__c</members>
+        <members>Product2.Spare_Name__c</members>
+        <members>OEM_Spare_Tracker__c.Expecting_Arrival_Date__c</members>
+        <members>OEM_Spare_Tracker__c.Material_Description__c</members>
+        <members>OEM_Spare_Tracker__c.PO_issue_date__c</members>
+        <members>OEM_Spare_Tracker__c.PO_Number__c</members>
+        <members>OEM_Spare_Tracker__c.Price__c</members>
+        <members>OEM_Spare_Tracker__c.Quantity__c</members>
+        <members>OEM_Spare_Tracker__c.Received_Date__c</members>
+        <members>OEM_Spare_Tracker__c.Remarks__c</members>
+        <members>OEM_Spare_Tracker__c.Site_Name__c</members>
+        <members>OEM_Spare_Tracker__c.Status__c</members>
+        <members>OEM_Spare_Tracker__c.Supplier_Name__c</members>
+        <members>OEM_Spare_Tracker__c.Total_Amount__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>Service Team</members>
         <members>Technician</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>AMC_Invoice_Tracker__c</members>
+        <members>Client_PO_Tracker__c</members>
+        <members>OEM_Spare_Tracker__c</members>
+        <members>Preventive_Maintanenace__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Account.Client_Accounts</members>
+        <members>Account.OEM_Accounts</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Products_with_Spares</members>
+        <name>ReportType</name>
+    </types>
+    <types>
+        <members>Kargil_Reports/Cases_with_Owner_2gZ</members>
+        <members>Kargil_Reports/Client_and_Cases_eyH</members>
+        <members>Kargil_Reports/Open_Cases_ipN</members>
+        <members>Kargil_Reports/Service_Appointments_Report_oac</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>Service_Team</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>Case.Case Auto Response</members>
+        <name>AutoResponseRule</name>
     </types>
   <!--  <types>
         <members>*</members>

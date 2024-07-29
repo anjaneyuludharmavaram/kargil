@@ -1,0 +1,6 @@
+Hi {!Preventive_Maintanenace__c.User__c}
+
+You have Preventive Maintenance scheduled for {!Preventive_Maintanenace__c.Client__c} on {!Preventive_Maintanenace__c.Schedule_Date__c}.
+
+Thanks
+Team Kargil

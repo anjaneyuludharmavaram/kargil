@@ -1,0 +1,13 @@
+Dear {!Case.SuppliedName}
+
+Thank you for raising the case with Kargil Equipment. Please find your case details below.
+
+Case Number : {!Case.CaseNumber}
+Case Subject : {!Case.Subject}
+Description : {!Case.Description}
+
+Thanks
+Kargil Team
+
+PLEASE DO NOT REMOVE BELOW LINE WHILE REPLYING
+{!Case.Thread_Token}

@@ -1,0 +1,8 @@
+Dear {!ServiceAppointment.Account}
+
+The service appointment has been created for you.
+Subject - {!ServiceAppointment.Subject}
+Description - {!ServiceAppointment.Description}.
+
+Thanks
+Team Kargil

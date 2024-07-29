@@ -1,0 +1,9 @@
+Hi Team,
+
+The Exptected Dispatch Date Approaching for {!Client_PO_Tracker__c.Name} is {!Client_PO_Tracker__c.Exptected_Dispatch_Date__c}. Please take the required actions.
+Name : {!Client_PO_Tracker__c.Name}
+Exptected Dispatch Date : {!Client_PO_Tracker__c.Exptected_Dispatch_Date__c}
+Client Name : {!Client_PO_Tracker__c.Client_Name__c}
+
+Thanks
+Team Kargil

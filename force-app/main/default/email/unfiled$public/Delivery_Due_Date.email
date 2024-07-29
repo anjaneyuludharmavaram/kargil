@@ -1,0 +1,10 @@
+Hi Team, 
+
+The Delivery due date for {!Client_PO_Tracker__c.Name} is {!Client_PO_Tracker__c.Delivery_Due_Date__c}. Followings are the details.
+Name : {!Client_PO_Tracker__c.Name}
+Delivery Due Date : {!Client_PO_Tracker__c.Delivery_Due_Date__c}
+Client : {!Client_PO_Tracker__c.Client_Name__c}
+{!Client_PO_Tracker__c.Material_Description__c}.
+
+Thanks
+Team Kargil

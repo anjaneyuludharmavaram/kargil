@@ -1,0 +1,8 @@
+Hi 
+
+The Service appointment has been Created for you work order.
+Subject - {!ServiceAppointment.Subject}
+Description - {!ServiceAppointment.Description}.
+
+Thanks
+Team Kargil

@@ -1,0 +1,8 @@
+Hi 
+
+The Status of Service Appointment has been changed to {!ServiceAppointment.Status}.
+Subject - {!ServiceAppointment.Subject}
+Description - {!ServiceAppointment.Description}.
+
+Thanks
+Team Kargil

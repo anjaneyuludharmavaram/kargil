@@ -1,0 +1,6 @@
+Hi Team, 
+
+The Expected Payment Date of of {!AMC_Invoice_Tracker__c.Name} for {!AMC_Invoice_Tracker__c.Client_Name__c} is {!AMC_Invoice_Tracker__c.Expected_Payment_Date__c}. Please take the required actions.
+
+Thanks
+Team kargil

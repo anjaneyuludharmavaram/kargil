@@ -12,12 +12,20 @@
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Spare_Name__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ProductCode</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>OEM__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Product__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -92,6 +100,12 @@
             <sortOrder>2</sortOrder>
         </platformActionListItems>
     </platformActionList>
+    <relatedLists>
+        <fields>PRODUCT2.NAME</fields>
+        <fields>PRODUCT2.CUSTOMER_PRODUCT_ID</fields>
+        <fields>PRODUCT2.DESCRIPTION</fields>
+        <relatedList>Product2.Product__c</relatedList>
+    </relatedLists>
     <relatedLists>
         <fields>CASES.CASE_NUMBER</fields>
         <fields>NAME</fields>

@@ -227,6 +227,22 @@
         <fields>CASES.SUBJECT</fields>
         <relatedList>RelatedCaseList</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>AMC_Invoice_Tracker__c.Client_Name__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Client_PO_Tracker__c.Client_Name__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>OEM_Spare_Tracker__c.Site_Name__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>OEM_Spare_Tracker__c.Supplier_Name__c</relatedList>
+    </relatedLists>
     <relatedObjects>ParentId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
