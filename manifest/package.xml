@@ -8,6 +8,18 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>*</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>HomePageComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
         <members>Case_Flow_On_Update</members>
         <members>Work_Order_Flow_On_Creation</members>
         <members>Service_Appointment_flow_on_Creation</members>
@@ -17,6 +29,7 @@
         <members>Product_Item_Flow_on_Insert</members>
         <members>AMC_Expected_Payment_Date_Notification_flow</members>
         <members>Exptected_Dispatch_Date_approaching_notification</members>
+        <members>Work_Order_Flow_on_Updated</members>
         <name>Flow</name>
     </types>
     <types>
@@ -30,6 +43,7 @@
         <members>Client_PO_Tracker__c.Exptected_Dispatch_Date_email_alert</members>
         <members>ProductItem.Product_item_quantity_Email_Alert</members>
         <members>AMC_Invoice_Tracker__c.Expected_Payment_Date_Email_Alert</members>
+        <members>WorkOrder.Work_Order_Status_Updated</members>
         <name>WorkflowAlert</name>
     </types>
      <types>
@@ -44,6 +58,7 @@
         <members>unfiled$public/Exptected_Dispatch_Date_Approaching</members>
         <members>unfiled$public/quantaity_is_equal_or_less_than_5</members>
         <members>unfiled$public/AMC_invoice_tracker_Expected_Payment_date_Notifiction</members>
+        <members>unfiled$public/Work_Order_Status_has_Been_Changed</members>
         <name>EmailTemplate</name>
     </types>
      <types>
@@ -186,6 +201,10 @@
         <members>KargilReports/Cases_with_Owner_2gZ</members>
         <members>KargilReports/Client_and_Cases_eyH</members>
         <members>KargilReports/Open_Cases_ipN</members>
+        <members>KargilReports/Service_Appointments_Report_oac</members>
+        <members>KargilReports/Client_Spare_Parts_Tracker_QxA</members>
+        <members>KargilReports/Clients_Preventive_Schedules_Wnp</members>
+        <members>KargilReports/Clients_with_Pending_Invoices_Report_lpa</members>
         <name>Report</name>
     </types>
     <types>
@@ -320,10 +339,7 @@
         <members>*</members>
         <name>CspTrustedSite</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>CustomApplication</name>
-    </types>
+    
     <types>
         <members>*</members>
         <name>CustomApplicationComponent</name>
@@ -472,14 +488,7 @@
         <members>*</members>
         <name>Group</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>HomePageComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>HomePageLayout</name>
-    </types>
+    
     <types>
         <members>*</members>
         <name>Index</name>

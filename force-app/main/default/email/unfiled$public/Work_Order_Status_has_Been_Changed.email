@@ -1,0 +1,9 @@
+Dear 
+
+Your  Status has been changed.Please find your case details below.
+
+Work Order Status : {!WorkOrder.Status}
+Description : {!Case.Description}
+
+Thanks
+Kargil Team
