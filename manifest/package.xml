@@ -136,6 +136,7 @@
         <members>Client_PO_Tracker__c.PO_Number__c</members>
         <members>Client_PO_Tracker__c.Delivery_Due_Date__c</members>
         <members>Client_PO_Tracker__c.Exptected_Dispatch_Date__c</members>
+        <members>Case.Service_Supporter__c</members>
         <members>Product2.Product__c</members>
         <members>Product2.OEM__c</members>
         <members>Product2.Spare_Name__c</members>
@@ -178,14 +179,13 @@
         <name>ListView</name>
     </types>
     <types>
-        <members>Products_with_Spares</members>
+        <members>*</members>
         <name>ReportType</name>
     </types>
     <types>
-        <members>Kargil_Reports/Cases_with_Owner_2gZ</members>
-        <members>Kargil_Reports/Client_and_Cases_eyH</members>
-        <members>Kargil_Reports/Open_Cases_ipN</members>
-        <members>Kargil_Reports/Service_Appointments_Report_oac</members>
+        <members>KargilReports/Cases_with_Owner_2gZ</members>
+        <members>KargilReports/Client_and_Cases_eyH</members>
+        <members>KargilReports/Open_Cases_ipN</members>
         <name>Report</name>
     </types>
     <types>
