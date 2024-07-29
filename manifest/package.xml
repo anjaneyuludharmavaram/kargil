@@ -98,6 +98,7 @@
         <members>Asset.Location__c</members>
         <members>Asset.Floor__c</members>
         <members>Asset.Asset_Number__c</members>
+        <members>Asset.Type__c</members>
         <members>ServiceAppointment.Customer_Email__c</members>
         <members>ServiceAppointment.Service_Supporter__c</members>
         <members>ServiceAppointment.OEM_Email__c</members>
