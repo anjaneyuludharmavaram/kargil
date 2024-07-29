@@ -2,12 +2,6 @@
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>Service Team</name>
-    <queueMembers>
-        <users>
-            <user>dharmavaram.anjaneyulu@areya.tech.kargil</user>
-            <user>mrunal.bhingare@areya.tech.kargil</user>
-        </users>
-    </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>
     </queueSobject>

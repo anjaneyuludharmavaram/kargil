@@ -158,6 +158,11 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Account.Client</members>
+        <members>Account.OEM_Service_Supporter</members>
+        <name>RecordType</name>
+    </types>
+    <types>
         <members>AMC_Invoice_Tracker__c</members>
         <members>Client_PO_Tracker__c</members>
         <members>OEM_Spare_Tracker__c</members>
