@@ -429,7 +429,7 @@
         <recordType>Account.Client</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-OEM%2FService Supporter Account Page Layout</layout>
+        <layout>Account-OEM Service Supporter Layout</layout>
         <recordType>Account.OEM_Service_Supporter</recordType>
     </layoutAssignments>
     <layoutAssignments>
